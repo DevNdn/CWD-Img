@@ -23,13 +23,18 @@ body {
 }
 
 h1,h3 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   color: white;
   text-align: center;
   width: 500px;
   margin: auto;
   margin-top: 100px;
   padding: 10px;
+}
+
+h3 {
+  background-color: rgba(0, 0, 0, 0.575);
+  border-bottom: 3px solid white;
 }
 
 .page-header > nav {
@@ -42,7 +47,11 @@ h1,h3 {
 }
 
 nav > a {
-  border: 1px solid black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.425);
+  text-decoration: none;
+  border: 1px solid rgb(255, 255, 255);
+  margin-right: 5px;
   padding: 10px;
 }
 
